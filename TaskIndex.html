@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="port">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Pointer</title>
+    <link rel="stylesheet" href="./TaskCSS.css" type="text/css">
+</head>
+<body>
+    <main>
+        <div class="logo"><img src="./Content/Logo Task.svg" alt="Logo"></div>
+        <section class="input">
+            <div class="search">
+                <input type="text" placeholder="escreva aqui a tarefa" class="camp" id="camp">
+                <button class="CreateButton" id="CreateButton">CRIAR TAREFA</button>
+            </div>
+        </section>
+        <section class="output">
+            <span class="FirstSpan">(Crie e clique na tarefa)</span>
+            <div class="drop" >
+                <div class="do" id="drop">
+                    <span class="ToDo">A completar</span>
+                </div>
+                <div class="done" id="dropDone">
+                    <span class="hasDone">Completado</span>
+                </div>
+                <div class="points" id="square">
+                    <span class="complete">Tarefas<br>completadas</span>
+                    <span class="porcent">0%</span>
+                </div>
+            </div>
+            <span class="clean" id="clear">Limpar Tarefas</span>
+        </section>      
+    </main>
+    <script src="./TaskJava.js"></script>
+    
+</body>
+</html>
